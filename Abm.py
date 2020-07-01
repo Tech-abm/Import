@@ -274,6 +274,9 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
+	elif bch =="13":		
+		os.system('xdg-open https://www.youtube.com/channel/UC5jned7it1eduNGSHP9C0qw')
+		login()
 	elif bch =='0':
 		exb()
 	else:
