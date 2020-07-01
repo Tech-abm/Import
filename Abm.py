@@ -259,7 +259,7 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
-			elif bch =="12":
+	elif bch =="12":		
 		os.system("clear")
 		print (logo)
 		print("\033[1;93m81,83,85,84,89,")
