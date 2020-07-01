@@ -322,11 +322,11 @@ def action():
 	p = ThreadPool(30)
 	p.map(main, id)
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
-	print '\033[1;96m[\033[1;97m✓\033[1;96m] \033[1;92mProcess Has Been Completed \033[1;97m....'
-	print"\033[1;96m[+] \033[1;92mTotal OK/\x1b[1;93mCP\033[1;91m: \033[1;92m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
-	print("\033[1;96m[+] \033[1;92mCP File Has Been Saved \033[1;91m: \033[1;97mout/checkpoint.txt")
-	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
-	menu()
+	print '[✓] Process Has Been Completed ....'
+	print '[✓] Total OK/CP : '+str(len(oks))+'/'+str(len(cpb))
+	print('[✓] CP File Has Been Saved : save/checkpoint.txt')
+	raw_input('\n[Press Enter To Go Back]')
+	os.system('python2 .README.md')
 		
 if __name__ == '__main__':
 	menu()
