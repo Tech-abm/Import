@@ -286,9 +286,8 @@ def action():
 	time.sleep(0.5)
 	psb ('[!] To Stop Process Press CTRL Then Press z')
 	time.sleep(0.5)
-	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
-	jalan('          \033[1;42m \033[1;31mCP ACCOUNT OPEN AFTER SEVEN DAYS\033[1;0m   ') 
-	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
+	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
+	
 	
 			
 	def main(arg):
