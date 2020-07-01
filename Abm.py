@@ -93,11 +93,11 @@ def menu():
 	print '\033[1;94m[10]\033[1;93m Poland'
 	print '\033[1;94m[11]\033[1;96m Pakistan'
 	print '\033[1;94m[12]\033[1;93m Indonisia'
-	print "[11]\033[1;95m UPDATE FAST COMMMAD BY (TECH ABM"
-#	print '[3] Follow Me On Facebook'
 	print '[0]\033[1;91m  Exit            '
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	action()
+
+	
 
 
 def action():
@@ -287,7 +287,7 @@ def action():
 	psb ('[!] To Stop Process Press CTRL Then Press z')
 	time.sleep(0.5)
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
-	jalan('          \033[1;42m \033[1;31mCP ACCOUNT OPEN AFTER SEVEN DAYS\033[1;0m    ') 
+	jalan('          \033[1;42m \033[1;31mCP ACCOUNT OPEN AFTER SEVEN DAYS\033[1;0m   ') 
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰" 
 	
 			
