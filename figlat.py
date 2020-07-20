@@ -24,7 +24,7 @@ try:
 except ImportError:
     os.system('pip2 install mechanize')
     time.sleep(1)
-    os.system('python2 abm.py')
+    os.system('python2 Abm.py')
     
 from multiprocessing.pool import ThreadPool
 from requests.exceptions import ConnectionError
@@ -240,7 +240,8 @@ logo9='''
  ║╚═╝║║╚══╗║║───║║───║║─║║
  ║╔═╗║║╔══╝║║─╔╗║║─╔╗║║─║║
  ║║─║║║╚══╗║╚═╝║║╚═╝║║╚═╝║
- ╚╝─╚╝╚═══╝╚═══╝╚═══╝╚═══╝\033[1;0m
+ ╚╝─╚╝╚═══╝╚═══╝╚═══╝╚═══╝
+\033[1;0m
 \033[0;95m╭════════════════════════════════════════════╮
 \033[0;91m║\033[0;91mAUTHOR : \033[0;92mTECH ABM                     \033[0;91m      ║
 \033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Tech-abm   \033[0;91m     ║
@@ -248,10 +249,11 @@ logo9='''
 \033[0;95m╰════════════════════════════════════════════╯'''
 logo10='''
 \033[1;91m─────█─▄▀█──█▀▄─█─────
-\033[1;92m ────▐▌──────────▐▌────
+\033[1;92m────▐▌──────────▐▌────
 \033[1;91m────█▌▀▄──▄▄──▄▀▐█────
-\033[1;92m ───▐██──▀▀──▀▀──██▌───
-\033[1;91m──▄████▄──▐▌──▄████▄──\033[1;0m
+\033[1;92m───▐██──▀▀──▀▀──██▌───
+\033[1;91m──▄████▄──▐▌──▄████▄──
+\033[1;0m
 \033[0;95m╭════════════════════════════════════════════╮
 \033[0;91m║\033[0;91mAUTHOR : \033[0;92mTECH ABM                     \033[0;91m      ║
 \033[0;91m║\033[0;91mGITHUB :\033[0;92m https://github.com/Tech-abm   \033[0;91m     ║
@@ -301,11 +303,11 @@ def menu():
 	print '\033[1;94m[14]\033[1;93m Grecee'
 	print '\033[1;94m[15]\033[1;96m Pakistan All Network Cloning '
 	print '\033[1;94m[16]\033[1;93m Fb brute force (target cloning) '
-# print '\033[1;94m[17]\033[1;93m Malta  (Coming soon) '
-# print '\033[1;94m[18]\033[1;96m Cananda (Coming soon) '
-# print '\033[1;94m[19]\033[1;93m Afghanistan (Coming soon) '
-# print '\033[1;94m[20]\033[1;96m Australia Coming soon) '
-# print '\033[1;94m[21]\033[1;93m Dubai (Coming soon) '
+#       print '\033[1;94m[17]\033[1;93m Malta  (Coming soon) '
+#       print '\033[1;94m[18]\033[1;96m Cananda (Coming soon) '
+#       print '\033[1;94m[19]\033[1;93m Afghanistan (Coming soon) '
+#       print '\033[1;94m[20]\033[1;96m Australia Coming soon) '
+#       print '\033[1;94m[21]\033[1;93m Dubai (Coming soon) '
 	print '[0]\033[1;97m  Exit            '
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	action()
@@ -521,7 +523,7 @@ def action():
 		print("\033[1;93mTelenor \033[1;92m40,41,42,43,44,45,46,47,48,49 ") 
 		print("\033[1;97mJazz \033[1;92m01,02,03,04,05,06,07,08") 
 		print("\033[1;93mZong \033[1;92m10,11,12,13,14,15,16,17,18")  
-#	 print("\033[1;93mUfone \033[1;92m(Coming Soon) ")  			        
+#	        print("\033[1;93mUfone \033[1;92m(Coming Soon) ")  			        
 		
 		try:
 			c = raw_input(" choose code  : ")
