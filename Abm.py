@@ -96,6 +96,7 @@ def menu():
 	print '\033[1;94m[10]\033[1;93m Poland'
 	print '\033[1;94m[11]\033[1;96m Pakistan'
 	print '\033[1;94m[12]\033[1;93m Indonisia'
+	print '\033[1;94m[13]\033[1;96m Iran'
 	print '\033[1;94m[13]\033[1;91m Update Tech abm'
 	print '[0]\033[1;97m  Exit            '
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
@@ -278,8 +279,19 @@ def action():
 			raw_input("\n[ Back ]")
 			menu()
 	elif bch =="13":		
-		os.system('xdg-open https://www.youtube.com/channel/UC5jned7it1eduNGSHP9C0qw')
-		login()
+		os.system("clear")
+		print (logo)
+		print("\033[1;93m901, 902, 903, 930, 933, 935, 936, 937, 938, 939") 
+		try:
+			c = raw_input(" choose code  : ")
+			k="+98"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			menu()
 	elif bch =='0':
 		exb()
 	else:
