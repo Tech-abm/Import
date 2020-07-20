@@ -98,6 +98,7 @@ def menu():
 	print '\033[1;94m[12]\033[1;93m Indonisia'
 	print '\033[1;94m[13]\033[1;96m Iran'
 	print '\033[1;94m[14]\033[1;93m Grecee'
+	print '\033[1;94m[15]\033[1;96m Pakistan All Network Cloning '
 	print '[0]\033[1;97m  Exit            '
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	action()
@@ -306,7 +307,29 @@ def action():
 		except IOError:
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
-			menu()		
+			menu()	
+	elif bch =="15":			
+		os.system("clear")
+		print (logo)
+		print("\033[1;93mTelenor \033[1;92m40,41,42,43,44,45,46,47,48,49 ") 
+		print("\033[1;97mJazz \033[1;92m01,02,03,04,05,06,07,08") 
+		print("\033[1;93mZong \033[1;92m10,11,12,13,14,15,16,17,18")  
+#				        
+		
+		try:
+			c = raw_input(" choose code  : ")
+			k="+92"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			menu()	      
+		      
+		      
+		 
+		
 	elif bch =='0':
 		exb()
 	else:
