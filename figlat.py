@@ -310,7 +310,7 @@ def menu():
 #       print '\033[1;94m[21]\033[1;93m Dubai (Coming soon) '
 	print '[0]\033[1;97m  Exit            '
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
-	action()
+	action() 
 	
 
 	
@@ -519,7 +519,7 @@ def action():
 			menu()	
 	elif bch =="15":			
 		os.system("clear")
-		print (logo16)
+		print (logo)
 		print("\033[1;93mTelenor \033[1;92m40,41,42,43,44,45,46,47,48,49 ") 
 		print("\033[1;97mJazz \033[1;92m01,02,03,04,05,06,07,08") 
 		print("\033[1;93mZong \033[1;92m10,11,12,13,14,15,16,17,18")  
