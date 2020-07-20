@@ -97,10 +97,11 @@ def menu():
 	print '\033[1;94m[11]\033[1;96m Pakistan'
 	print '\033[1;94m[12]\033[1;93m Indonisia'
 	print '\033[1;94m[13]\033[1;96m Iran'
-	print '\033[1;94m[13]\033[1;91m Update Tech abm'
+	print '\033[1;94m[14]\033[1;93m Grecee'
 	print '[0]\033[1;97m  Exit            '
 	print "\033[1;96m⊱⋕⊰══════════════════════════════════════════⊱⋕⊰\n" 
 	action()
+	
 
 	
 
@@ -292,6 +293,20 @@ def action():
 			print ("[!] File Not Found")
 			raw_input("\n[ Back ]")
 			menu()
+	elif bch =="14":		
+		os.system("clear")
+		print (logo)
+		print("\033[1;93m69,693,698,694,695") 
+		try:
+			c = raw_input(" choose code  : ")
+			k="+3069"
+			idlist = ('.txt')
+			for line in open(idlist,"r").readlines():
+				id.append(line.strip())
+		except IOError:
+			print ("[!] File Not Found")
+			raw_input("\n[ Back ]")
+			menu()		
 	elif bch =='0':
 		exb()
 	else:
