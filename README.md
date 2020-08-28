@@ -7,7 +7,7 @@
 
 `pkg install git`
 
-`git clone https://github.com/Tech-abm/Import
+`git clone https://github.com/Tech-abm/Import`
 
 `cd Import`
 
