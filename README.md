@@ -1,21 +1,22 @@
-# Import 
 
-pkg update && pkg upgrade
+### Import💯
 
-pkg install python2 
+`pkg update && pkg upgrade`
 
-pkg install git 
+`pkg install python2`
 
-git clone https://github.com/Tech-abm/Import
+`pkg install git`
 
-cd Import
+`git clone https://github.com/Tech-abm/Import
 
-pip2 install requests 
+`cd Import`
 
-pip2 install mechanize 
+`pip2 install requests`
 
-python2 Abm.py
+`pip2 install mechanize`
+
+`python2 Abm.py`
 
 
 
-#_Update_Done 💯
+### Update_Done 💯
